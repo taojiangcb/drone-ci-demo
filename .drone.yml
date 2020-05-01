@@ -1,0 +1,10 @@
+---
+  kind: pipeline
+  type: docker
+  name: drone-ci-demo #//项目名称
+  
+  steps:
+  - name: install   #//单步名称
+    image: node:alpine  #//基于docker的某个镜像  https://hub.docker.com/_/node?tab=tags
+    commands:
+    - npm i --registery=https://registry.npm.taobao.org 
