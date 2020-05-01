@@ -8,3 +8,4 @@
     image: node:alpine  #//基于docker的某个镜像  https://hub.docker.com/_/node?tab=tags
     commands:
     - npm i --registery=https://registry.npm.taobao.org 
+  
